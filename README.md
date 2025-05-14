@@ -16,6 +16,7 @@ Actualmente estoy realizando mis prácticas como Desarrollador Web en Marketec36
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next.js](https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 ![Astro](https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white)
 
@@ -33,11 +34,5 @@ Actualmente estoy realizando mis prácticas como Desarrollador Web en Marketec36
 ### ⚙️ Herramientas:
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
-
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=JoseDavid-2daw&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=JoseDavid-2daw&theme=midnight-purple&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=JoseDavid-2daw&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
