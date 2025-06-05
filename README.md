@@ -1,5 +1,5 @@
 # 📝 Mi Porfolio:
-https://porfolio-rho-two.vercel.app/
+https://jdrb.dev/
 
 # 💫 About Me:
 Actualmente estoy realizando mis prácticas como Desarrollador Web en Marketec360.<br>Busco aprender lo máximo posible y aportar todo lo que pueda allá donde esté.<br>Le tengo un cariño especial al front-end pero me encanta romperme la cabeza con el back-end.
