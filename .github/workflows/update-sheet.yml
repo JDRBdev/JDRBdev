@@ -1,0 +1,34 @@
+name: Update Google Sheet
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-sheet:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      
+      - name: Get commit message
+        id: commit
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          echo "message=$COMMIT_MSG" >> $GITHUB_OUTPUT
+      
+      - name: Update Google Sheet
+        env:
+          APPS_SCRIPT_URL: ${{ secrets.APPS_SCRIPT_URL }}
+          REPO_NAME: ${{ github.repository }}
+          COMMIT_MESSAGE: ${{ steps.commit.outputs.message }}
+        run: |
+          curl -L \
+            -X POST \
+            -H "Content-Type: application/json" \
+            -d "{\"proyecto\":\"$REPO_NAME\",\"mensaje\":\"$COMMIT_MESSAGE\"}" \
+            $APPS_SCRIPT_URL
